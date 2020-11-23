@@ -2,7 +2,7 @@
 
 Design and build a comments feed that displays all comments and notifies a user in real-time when new comments are added.
 
-Here is the data schema for a Comment:
+Here is the data schema for a Message:
 * id: INTEGER
 * name: TEXT
 * created: DATETIME

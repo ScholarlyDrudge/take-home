@@ -1,14 +1,14 @@
 import React from 'react';
-import CommentForm from "./CommentForm";
-import CommentFeed from "./CommentFeed";
+import MessageForm from "./MessageForm";
+import MessageFeed from "./MessageFeed";
 
-const CommentContainer = () => {
+const MessageContainer = () => {
     return (
         <>
-            <CommentForm/>
-            <CommentFeed/>
+            <MessageForm/>
+            <MessageFeed/>
         </>
     );
 };
 
-export default CommentContainer;
+export default MessageContainer;

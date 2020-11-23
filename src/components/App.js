@@ -1,10 +1,12 @@
 import React from 'react';
-import CommentContainer from "./CommentContainer";
+import '../css/App.css';
+import MessageContainer from "./MessageContainer";
 
 function App() {
     return (
-        <div>
-            <CommentContainer/>
+        <div className={'App'}>
+            <h1>Message Feed</h1>
+            <MessageContainer/>
         </div>
     );
 }
